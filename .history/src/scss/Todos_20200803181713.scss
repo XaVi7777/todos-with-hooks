@@ -1,0 +1,15 @@
+.table {
+}
+
+.table-row {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.table-cell {
+  padding: ;
+  border: 2px solid grey;
+  border-collapse: collapse;
+}

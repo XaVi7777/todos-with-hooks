@@ -1,0 +1,15 @@
+button {
+  border-radius: 4px;
+  transition: all 0.1s ease-in-out;
+  background-color: #fff;
+  padding: 0 10px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  color: #1a1a1a;
+  line-height: 30px;
+  display: inline-block;
+
+  &btn-icon {
+    border-color: #62a60a;
+  }
+}

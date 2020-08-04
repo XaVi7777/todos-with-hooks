@@ -1,0 +1,23 @@
+.icon {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.icon-delete {
+  border: 1px solid red;
+  color: red;
+  &:hover {
+    color: #f2f2f2;
+    background-color: red;
+  }
+}
+
+.icon-edit {
+  border: 1px solid green;
+  color: green;
+  &:hover {
+    color: #f2f2f2;
+    background-color:green;
+  }
+}

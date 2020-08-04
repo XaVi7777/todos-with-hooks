@@ -1,0 +1,25 @@
+.edit-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-main {
+  height: 95%;
+  padding: 15px 0;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.edit-input {
+  position: relative;
+  margin: 10px 0;
+  max-width: 30%;
+}
+
+.text-center {
+  text-align: center;
+}

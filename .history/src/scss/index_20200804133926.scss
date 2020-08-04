@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import "~material-icons/iconfont/material-icons.scss";
+@import "button";
+@import "App";
+@import "MainPage";
+@import "EditPage";
+@import "Header";
+@import "Main";
+@import "Footer";
+@import "Todos";
+@import "Icon";
+@import "CreateTodo.sc"
+* {
+  margin: 0;
+  position: relative;
+  padding: 0;
+  color: #000;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #f2f2f2;
+}
+
+#root {
+  display: block;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none
+}

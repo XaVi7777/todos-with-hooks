@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import "~material-icons/iconfont/material-icons.scss";
+@import "button";
+@import "App";
+@import "MainPage";
+@import "Header";
+// @import "~normalize.css";
+// @import "header";
+// @import "main";
+// @import "footer";
+
+* {
+  margin: 0;
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  position: relative;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #f2f2f2;
+}
+
+#root {
+  position: relative;
+  height: 100%;
+  display: block;
+  color: #888;
+  max-width: 1200px;
+  font-size: 0.8rem;
+}
